@@ -1,7 +1,14 @@
-<script></script>
+<script setup>
+defineProps({
+  title: String,
+  header: String,
+});
+</script>
 <template>
-  <h1>rr</h1>
-  <header>header</header>
+  <div>
+    <h1>{{ title }}</h1>
+    <header>{{ header }}</header>
+  </div>
 </template>
 
 <style scoped>
