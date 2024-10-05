@@ -1,6 +1,7 @@
 <script setup></script>
+
 <template>
-  <div>Home</div>
+  <div>Fav</div>
 </template>
 
 <style scoped></style>
