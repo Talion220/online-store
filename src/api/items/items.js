@@ -1,4 +1,4 @@
-const URL = "https://604781a0efa572c1.mokky.dev/items";
+const URL = "https://0064b15d2c350d29.mokky.dev/items";
 
 export const getItems = () => {
   return fetch(URL)

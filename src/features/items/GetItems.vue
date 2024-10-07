@@ -12,7 +12,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div v-for="item in items" :key="item.id">
-    <CardItem :item="item" />
-  </div>
+  <article
+    class="grid gap-5 xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+  >
+    <CardItem :item="item" v-for="item in items" :key="item.id" />
+  </article>
 </template>

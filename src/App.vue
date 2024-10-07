@@ -3,7 +3,7 @@ import Headers from "./widgets/Header.vue";
 </script>
 
 <template>
-  <div class="bg-white rounded-lg w-4/5 m-auto mt-10 shadow-xl">
+  <div class="bg-white rounded-lg w-4/5 m-auto my-10 shadow-xl">
     <Headers />
     <router-view />
   </div>
